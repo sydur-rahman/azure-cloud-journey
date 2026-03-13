@@ -41,12 +41,8 @@ azure-cloud-journey/
 
 ## 🔗 Connect With Me
 
-- LinkedIn: [Add your LinkedIn URL]
+- LinkedIn: www.linkedin.com/in/sydur-rahman
 - GitHub: github.com/sydur-rahman
 ```
 
 ---
-
-Once you've pasted and edited it, scroll down and write your first **commit message:**
-```
-Initial commit: Add portfolio README and learning roadmap
