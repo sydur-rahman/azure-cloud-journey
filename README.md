@@ -41,6 +41,6 @@ azure-cloud-journey/
 
 ## 🔗 Connect With Me
 
-- LinkedIn: www.linkedin.com/in/sydur-rahman
+- LinkedIn: [Sydur Rahman](https://www.linkedin.com/in/sydur-rahman)
 - GitHub: github.com/sydur-rahman
 ```
