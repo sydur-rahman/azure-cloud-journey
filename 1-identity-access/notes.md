@@ -10,6 +10,9 @@
 - Created a fictional company: Meridian Tech
 - Created 3 users: Alex Turner (IT), Priya Patel (IT), Jamie Brooks (HR)
 - Created 2 Security groups: IT-Team, HR-Team
+- I wasn't sure about UPN vs Display Name at first but figured it out during creation. 
+  I also noticed Azure auto-generates a temporary password for new users — 
+  in a real environment you'd share this securely with the new starter.
 
 
 ## Key Terms
