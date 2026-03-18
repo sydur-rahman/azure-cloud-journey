@@ -23,6 +23,31 @@
 | Display Name | The name people see in the directory |
 | Security Group | Used to control access to resources |
 
-## Questions I Still Have
+#### Questions I Still Have
 - What if I want to add 100s of users at the same time and add them to the group as well? Do I have to do it manually?
-```
+
+## RBAC — Role Based Access Control
+
+### What I Learned
+- RBAC controls who can do what in Azure
+- Three key concepts: Role (what's allowed), Scope (where it applies), 
+  Security Principal (who gets it)
+- Always assign roles to groups not individuals — easier to manage
+- Least privilege = give users only the access they need for their job
+
+### What I Built
+- Assigned Contributor role to IT-Team at subscription scope
+- Assigned Reader role to HR-Team at subscription scope
+- IT-Team (Alex, Priya) can now create and manage resources
+- HR-Team (Jamie) can view resources but not change anything
+
+### Key Roles to Remember
+| Role | What it can do |
+|---|---|
+| Owner | Full access + manage permissions |
+| Contributor | Create and manage resources, no permission control |
+| Reader | View only, change nothing |
+
+### Real World Scenario
+- If a user moves departments, just move them between groups
+- Permissions update automatically — no need to touch role assignments
