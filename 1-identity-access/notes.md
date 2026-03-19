@@ -52,3 +52,29 @@
 - If a user moves departments, just move them between groups
 - Permissions update automatically — no need to touch role assignments
 - Which means we control the groups instead of individual users, i.e Create group based on Job Title or Department
+
+## MFA & Conditional Access
+
+### Security Defaults (what we enabled)
+- Microsoft enables Security Defaults automatically on new tenants
+- Enforces MFA registration for all users
+- Blocks legacy authentication protocols
+- Free — no licence required
+
+### Conditional Access (conceptual — requires Entra ID P1/P2)
+- Controls the CONDITIONS under which a user can sign in
+- Different from RBAC — RBAC controls what you can access, 
+  Conditional Access controls whether you can sign in at all
+- Think of it as a bouncer at the door — RBAC is the list of 
+  rooms you're allowed into once inside
+
+### Example Conditional Access Rules
+- Block sign-ins from outside the UK
+- Require MFA when signing in from an unrecognised device
+- Allow access only from a specific office network/IP range
+
+### Key Distinction
+| | What it controls |
+|---|---|
+| RBAC | What resources you can access and what you can do |
+| Conditional Access | Whether you're allowed to sign in at all |
