@@ -53,6 +53,18 @@
 - Permissions update automatically — no need to touch role assignments
 - Which means we control the groups instead of individual users, i.e Create group based on Job Title or Department
 
+## Key Lesson — Group Types
+
+| Group Type | Purpose |
+|---|---|
+| Security | Controlling access to Azure resources via RBAC |
+| Microsoft 365 | Collaboration — email, Teams, SharePoint |
+
+- You cannot assign Azure RBAC roles to a Microsoft 365 group
+- In real organisations both group types often exist side by side
+- Naming convention matters — use clear names like 
+  Finance-Team (M365) and Finance-Team-Access (Security)
+
 ## MFA & Conditional Access
 
 ### Security Defaults (what we enabled)
