@@ -52,7 +52,7 @@
 - If a user moves departments, just move them between groups
 - Permissions update automatically — no need to touch role assignments
 - Which means we control the groups instead of individual users, i.e Create group based on Job Title or Department
-
+![RBAC Group Diagram](rbac-group-diagram.svg)
 ## Key Lesson — Group Types
 
 | Group Type | Purpose |
